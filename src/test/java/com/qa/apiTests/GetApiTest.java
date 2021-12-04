@@ -119,7 +119,7 @@ public class GetApiTest extends BaseTest
          
          //STATUS CODE
          int status = response.getStatusLine().getStatusCode();
-		 System.out.println("Status code---->" +status);
+		 System.out.println("Status code is---->" +status);
 		 Assert.assertEquals(status, RESPONSE_status_code_200,  "Status code is not 200");
 		 
 		 
