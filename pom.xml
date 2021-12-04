@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.com.restapi</groupId>
+  <artifactId>RestApiAutomation</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>RestApiAutomation</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    
+    <httpclient.version>4.5.12</httpclient.version>
+    <httpcore.version>4.4.13</httpcore.version>
+    <jsonlib.version>20190722</jsonlib.version>
+    <testng.version>7.0.0</testng.version>
+  </properties>
+
+  <dependencies>
+    
+      <dependency>
+    		<groupId>org.apache.httpcomponents</groupId>
+    		<artifactId>httpclient</artifactId>
+    		<version>${httpclient.version}</version>
+ 	  </dependency>
+ 	  
+    <dependency>
+    		<groupId>org.apache.httpcomponents</groupId>
+    		<artifactId>httpcore</artifactId>
+    		<version>${httpcore.version}</version>
+	</dependency>
+    
+    <dependency>
+    		<groupId>org.json</groupId>
+    		<artifactId>json</artifactId>
+    		<version>${jsonlib.version}</version>
+	</dependency>
+    
+    	 <dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+			<scope>test</scope>
+		</dependency>
+  </dependencies>
+</project>

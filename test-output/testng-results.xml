@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5567" started-at="2020-04-27T12:35:17Z" finished-at="2020-04-27T12:35:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5567" started-at="2020-04-27T12:35:17Z" finished-at="2020-04-27T12:35:22Z">
+      <class name="com.qa.apiTests.GetApiTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.apiTests.GetApiTest@61a52fbd]" name="setUp" is-config="true" duration-ms="12" started-at="2020-04-27T18:05:17Z" finished-at="2020-04-27T18:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTest()[pri:1, instance:com.qa.apiTests.GetApiTest@61a52fbd]" name="getTest" duration-ms="4279" started-at="2020-04-27T18:05:17Z" finished-at="2020-04-27T18:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.apiTests.GetApiTest@61a52fbd]" name="setUp" is-config="true" duration-ms="1" started-at="2020-04-27T18:05:21Z" finished-at="2020-04-27T18:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTestWithHeader()[pri:2, instance:com.qa.apiTests.GetApiTest@61a52fbd]" name="getTestWithHeader" duration-ms="1173" started-at="2020-04-27T18:05:21Z" finished-at="2020-04-27T18:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestWithHeader -->
+      </class> <!-- com.qa.apiTests.GetApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
