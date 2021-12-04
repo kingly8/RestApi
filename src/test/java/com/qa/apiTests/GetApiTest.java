@@ -126,7 +126,7 @@ public class GetApiTest extends BaseTest
 		 //JSON RESPONSE  
 		 String stringResponse = EntityUtils.toString(response.getEntity(), "UTF-8"); // CONVERT INTO STRING
 		 JSONObject json = new JSONObject(stringResponse); //CONVERT JSON FORMAT
-		 System.out.println("Json Response---->" + json);
+		 System.out.println("Json Response is---->" + json);
 		 
 //SINGLE VALUE ASSERTION(JSON object)
 		 
