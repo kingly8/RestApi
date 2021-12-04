@@ -166,7 +166,7 @@ public class GetApiTest extends BaseTest
 		    {
 		    	allHeaders.put(header.getName(), header.getValue());
 		    }
-		   System.out.println("Header Response--->" + allHeaders);
+		   System.out.println("Header Response is--->" + allHeaders);
 	     }
      }
 	
